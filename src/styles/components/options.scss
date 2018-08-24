@@ -1,0 +1,43 @@
+.button {
+  font-size: $m-size;
+  color: $lightblue;
+  background: #273746;
+  display: flex;
+  justify-content: space-between;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 $s-size;
+}
+
+.option {
+  padding: $m-size;
+  border: none;
+  color: $lightblue;
+  background: #273746;
+}
+
+.add_option .new_option {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: $l-size 1rem;
+  display: flex;
+  justify-content: space-between;
+  color: $lightblue;
+  border-bottom: 1px solid lighten(#273746, 20%);
+  background: lighten(#273746, 10%);
+}
+
+.option_two {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: $xl-size 1rem;
+  display: flex;
+  justify-content: center;
+  color: $lightblue;
+  border-bottom: 1px solid lighten(#273746, 20%);
+  background: lighten(#273746, 10%);
+  text-align: center;
+}
+.options {
+  padding-left: 1rem;
+}

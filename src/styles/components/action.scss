@@ -1,0 +1,23 @@
+.button__action {
+  margin-top: $l-size;
+  text-align: center;
+  background: $blue;
+  padding: $m-size 18.5rem;
+  font-size: $l-size;
+  color: white;
+  border: none;
+  border-bottom: 0.6rem solid darken($blue, 10%);
+  margin-bottom: $l-size;
+}
+
+.button__action:disabled {
+  opacity: 0.5;
+}
+
+.action__middle {
+  display: flex;
+  justify-content: center;
+}
+.button__add {
+  padding: $s-size $m-size;
+}

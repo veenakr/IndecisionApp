@@ -1,0 +1,25 @@
+.header {
+  background: $main;
+  color: $blue;
+  margin-bottom: $m-size;
+  padding: $m-size 0;
+}
+
+.header__title {
+  font-size: $l-size;
+  margin: 0;
+}
+
+.header__subtitle {
+  font-size: $m-size;
+  color: $lightblue;
+  font-weight: 500;
+  margin: 0;
+  padding: 1rem 0;
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 $m-size;
+}
